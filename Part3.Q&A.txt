@@ -1,0 +1,47 @@
+Questions
+1.What is oops stands for?
+    OOPs stands for Object-Oriented Programming system. Procedural programming is about writing
+procedures or methods that perform operations on the data, while object-oriented
+programming is about creating objects that contain both data and methods.
+
+2.What is Polymorphism? explain types?
+     Polymorphism is a feature of OOPs that allows the object to behave differently in different conditions. 
+We have two types of polymorphism: 
+1) Compile time Polymorphism – This is also known as static (or early) binding. 
+2) Runtime Polymorphism – This is also known as dynamic (or late) binding.
+
+3.what is interface and example in selenium,java?
+   An Interface in Java programming language is defined as an abstract type used to specify the behavior of a class. 
+A Java interface contains static constants and abstract methods. 
+A class can implement multiple interfaces. ... All methods in the interface are implicitly public and abstract.
+
+4.what is abstarct class and example?
+   Abstract classes are essential to providing an abstraction to the code to make it reusable and extendable. 
+For example, a Vehicle parent class with Truck and Motorbike inheriting from it is an abstraction that easily 
+allows more vehicles to be added.
+
+5.Difference between multiple inheritance and multilevel inheritance
+    The key difference between Multiple and Multilevel Inheritance is that Multiple Inheritance is when a class 
+inherits from many base classes while Multilevel Inheritance is when a class inherits from a derived class making 
+that derived class a base class for a new class.
+
+6.Is multiple inheritance possible in java?
+    When one class extends more than one classes the it is called Multiple inheritance
+-Class C extends class A & b then this type of inheritance is known is Multiple inheritance.
+-Java doesn't allow multiple inheritance
+
+7.What is keyword for using inheritance?
+    To inherit from a class, use the extends keyword.
+
+8.what is the keyword to connect interface and class?
+     To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class
+with the implements keyword (instead of extends ). The body of the interface method is provided by the "implement" class.
+
+9.what is difference between class and interface?
+    A class describes the attributes and behaviors of an object. An interface contains behaviors that a class implements. 
+A class may contain abstract methods, concrete methods. An interface contains only abstract methods.
+
+10.what is difference between class and abstract class?
+    Abstract class can have static fields and static method, like other classes. An abstract class cannot be declared as final. 
+Only abstract class can have abstract methods.
+    
